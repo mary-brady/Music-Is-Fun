@@ -6,6 +6,9 @@
     flex-wrap: wrap;
     display: flex;
 }
+.card-body {
+    justify-content: center;
+}
 .card {
-    justify-content: center
+    margin: 5px;
 }

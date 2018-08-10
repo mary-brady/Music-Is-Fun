@@ -13,11 +13,11 @@ function drawSongs(results) {
   for (let i = 0; i < results.length; i++) {
     const song = results[i];
     template += `
-    <div class="col-sm text-center">
+    <div class="col-sm-3 text-center">
     <div class="card" style="width 18rem;">
       <img class="card-img-top" src="${song.albumArt}" alt="album art"</p>
       <div class="card body">
-      <audio controls> <source src="${song.preview}" type="audio/mpeg">
+      <audio control> <source src="${song.preview}" type="audio/mpeg">
       </audio>
       <h5><b>${song.title}</b></h5>
       <h6 class="text-muted">${song.artist}</h6>
