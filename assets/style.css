@@ -1,0 +1,11 @@
+.mh {
+    margin-bottom: 10px;
+}
+.flex-container {
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    display: flex;
+}
+.card {
+    justify-content: center
+}
