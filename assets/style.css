@@ -2,13 +2,22 @@
     margin-bottom: 10px;
 }
 .flex-container {
-    -webkit-flex-wrap: wrap;
+    /* -webkit-flex-wrap: wrap; */
     flex-wrap: wrap;
     display: flex;
-}
-.card-body {
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .card {
     margin: 5px;
+}
+
+body {
+  background-color: rgb(54, 44, 44);  
+}
+h1 {
+    color: rgb(221, 182, 182);
+}
+.audio-bg {
+    background-color: rgb(41, 23, 23);
+    border-bottom: 5px rgb(156, 92, 92);
 }
