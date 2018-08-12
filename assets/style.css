@@ -20,4 +20,6 @@ h1 {
 .audio-bg {
     background-color: rgb(41, 23, 23);
     border-bottom: 5px rgb(156, 92, 92);
+    height: 40vh;
+    align-items: center;
 }
