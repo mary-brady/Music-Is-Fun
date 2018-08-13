@@ -9,17 +9,47 @@
 }
 .card {
     margin: 5px;
+    color: #f7f7f7;
+    border: 3px solid #393e46;
+    border-radius: 15%;
+    font-family: 'Acme', sans-serif;
+    background-color: #5c636e;
+
+}
+.card-body {
+    padding: 5px;
+}
+.bordery-bits {
+    margin: initial;
+    border-radius: inherit;
+    padding: 7px;
+}
+
+.margin-stuff {
+margin-top: 5px;
+}
+
+.artist-text {
+    color: #393e46;
 }
 
 body {
-  background-color: rgb(54, 44, 44);  
+  background-color: #5c636e;
+  font-family: 'Acme', sans-serif;  
 }
 h1 {
-    color: rgb(221, 182, 182);
+    color: #393e46;
 }
 .audio-bg {
-    background-color: rgb(41, 23, 23);
-    border-bottom: 5px rgb(156, 92, 92);
+    background-color: #f7f7f7;
     height: 40vh;
     align-items: center;
+}
+
+.form-control {
+    margin-right: 5px;
+}
+
+p {
+    font-size: smaller;
 }
